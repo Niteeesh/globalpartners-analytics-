@@ -1,0 +1,4 @@
+MSCK REPAIR TABLE globalpartners_curated.fact_order_revenue;
+MSCK REPAIR TABLE globalpartners_curated.customer_daily_snapshot;
+MSCK REPAIR TABLE globalpartners_curated.customer_rfm_daily;
+MSCK REPAIR TABLE globalpartners_curated.location_daily_perf;
