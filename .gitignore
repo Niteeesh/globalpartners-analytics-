@@ -1,0 +1,58 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# ---- Logs ----
+*.log
+
+# ---- Secrets / credentials ----
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials
+**/credentials
+.aws/
+**/.aws/
+
+# ---- Data artifacts (keep repo light) ----
+*.parquet
+*.csv
+*.zip
+*.gz
+
+# ---- Local outputs ----
+athena-results/
+logs/
